@@ -1,0 +1,14 @@
+<div class="seguimiento-entrega">
+    <h2>Seguimiento de Entrega</h2>
+    <mat-card *ngFor="let entrega of entregas">
+      <mat-card-header>
+        <mat-card-title>Pedido #{{entrega.pedidoId}}</mat-card-title>
+        <mat-card-subtitle>Estado: {{entrega.estado}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Dirección de Entrega: {{entrega.direccion}}</p>
+        <p>Fecha Estimada: {{entrega.fechaEstimada | date}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

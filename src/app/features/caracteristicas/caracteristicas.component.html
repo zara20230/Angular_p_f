@@ -1,0 +1,18 @@
+<div class="caracteristicas">
+    <h2>Características de Items</h2>
+    
+    <div class="transformed-items">
+      <h3>Items Transformados</h3>
+      <ul>
+        <li *ngFor="let item of transformedItems">
+          {{ item }}
+        </li>
+      </ul>
+    </div>
+  
+    <div class="error-result" *ngIf="errorResult">
+      <h3>Error</h3>
+      <p>{{ errorResult }}</p>
+    </div>
+  </div>
+  

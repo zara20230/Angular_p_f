@@ -1,0 +1,22 @@
+.caracteristicas {
+    padding: 20px;
+    
+    .transformed-items {
+      margin-top: 20px;
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+    }
+    
+    .error-result {
+      margin-top: 20px;
+      color: red;
+    }
+  }
+  

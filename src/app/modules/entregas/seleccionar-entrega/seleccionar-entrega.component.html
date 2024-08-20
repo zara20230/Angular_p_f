@@ -1,0 +1,9 @@
+<div class="seleccionar-entrega">
+    <h2>Seleccionar Método de Entrega</h2>
+    <mat-radio-group [(ngModel)]="metodoEntrega">
+      <mat-radio-button value="domicilio">Entrega a Domicilio</mat-radio-button>
+      <mat-radio-button value="tienda">Recoger en Tienda</mat-radio-button>
+    </mat-radio-group>
+    <button mat-raised-button color="primary" (click)="confirmarEntrega()">Confirmar Entrega</button>
+  </div>
+  

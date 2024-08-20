@@ -1,0 +1,19 @@
+<div class="registro-clientes">
+    <h2>Registrar Nuevo Cliente</h2>
+    <form (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input matInput placeholder="Nombre" [(ngModel)]="nuevoCliente.nombre" name="nombre" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="DNI" [(ngModel)]="nuevoCliente.dni" name="dni" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Email" [(ngModel)]="nuevoCliente.email" name="email" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Dirección" [(ngModel)]="nuevoCliente.direccion" name="direccion">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Registrar Cliente</button>
+    </form>
+  </div>
+  

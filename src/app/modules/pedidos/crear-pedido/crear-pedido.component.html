@@ -1,0 +1,16 @@
+<div class="crear-pedido">
+    <h2>Crear Nuevo Pedido</h2>
+    <form (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input matInput placeholder="Cliente" [(ngModel)]="nuevoPedido.cliente" name="cliente" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Detalle" [(ngModel)]="nuevoPedido.detalle" name="detalle" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="number" placeholder="Cantidad" [(ngModel)]="nuevoPedido.cantidad" name="cantidad" required>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Crear Pedido</button>
+    </form>
+  </div>
+  

@@ -1,0 +1,15 @@
+<div class="detalle-inventario">
+    <h2>Detalle del Producto</h2>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{producto.nombre}}</mat-card-title>
+        <mat-card-subtitle>ID: {{producto.id}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Cantidad en stock: {{producto.cantidad}}</p>
+        <p>Precio: {{producto.precio | currency}}</p>
+        <p>Descripción: {{producto.descripcion}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

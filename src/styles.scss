@@ -1,0 +1,48 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+
+.container {
+    margin: 20px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
