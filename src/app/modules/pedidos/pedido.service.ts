@@ -22,3 +22,5 @@ export class PedidoService {
     return this.http.put(`${this.baseUrl}/${id}`, pedido);
   }
 }
+
+
